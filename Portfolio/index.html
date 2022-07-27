@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-1">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand"><b>Bridget Bernard</b></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#aboutme">About</a>
+                      <a class="nav-link" href="https://github.com/BridgetBernard">Projects</a>
+                      <a class="nav-link" href="#footer">Contact</a>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" id="button2">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="row">
+          
+            <img src="./images/new2.jpg" class="img-thumbnail mt-5 display-image" alt="">
+
+          
+            <div class="col main">
+              <div class="col-lg-5 col-sm-6 ms-3 mb-4">
+                <h1 >Hello!</h1>
+                <h1 class="mb-4">I'm Bridget, a frontend developer from Nairobi- Kenya.</h1>
+                <a class="button" href="#aboutme">Learn More</a>
+             </div>
+            </div>
+              
+            
+            <div class="col-12 mt-4">
+                <h1 class="text-center" id="aboutme"><b>About Me</b></h1>
+                
+                <p style="font-size: 12;">My name is Bridget and i create beautiful and functional websites.
+                  I am a positive, enthusiastic, competent web developer, who in over a year has build diverse
+                  set of skills, qualities and attributes. I have experience in working both alone and in a
+                  team on often time sensitive challenging web development projects that require outstanding
+                  creative and technical capabilities. I have incredible problem solving and critical thinking skills.
+                  As a developer i ensure my skills are kept upto date with this rapidly changing industry.
+                  My expertise is in HTML, CSS, Bootstrap and Javascript. I am also skilled in React.js and still working towards
+                  a complete mastery of the framework and other frameworks as well. I am a fast learner and i would like to
+                  work in an organisation where i am going to be challenged and my skills and qualities will be put into use.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+          <h2><b>Enquiry form</b></h2>
+          <form action="" class="col-6" id="form">
+            <div class="">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Full Name </label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Email</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Location</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+              <div class="">
+                <label for="formGroupExampleInput" class="form-label">Gender</label>
+                
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">Non-binary</label>
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+              <div class="">
+                <label for="formGroupExampleInput" class="form-label">Message</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                
+              </div>
+              <button type="submit" class="btn btn-primary mt-3 mb-1">Submit</button>
+            </div>
+
+          </form>
+          
+        </div>
+        <footer class="text-center mt-5" id="footer">
+          <i class="bi bi-facebook px-3"></i>
+          <i class="bi bi-instagram px-3"></i>
+          <i class="bi bi-twitter px-3"></i>
+          <br>
+          
+          <p class="mt-2"><i class="bi bi-envelope px-2"></i>Bernardbridgit@gmail.com</p>
+          
+          <p class=""><i class="bi bi-telephone px-2"></i>+254 705 217 082</p>
+          <p class="mt-3">&copy;2022 WOMEN SOFTWARE DEVELOPMENT ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+</body>
+</html>
